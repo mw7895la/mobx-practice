@@ -11,7 +11,7 @@ const Search: React.FC =() => {
     return useObserver(()=> {
         return <input value={query.get()} onChange={e => setQuery(e.target.value)}/>;
 
-        });
-    }
+    });
+}
 
 export default Search;

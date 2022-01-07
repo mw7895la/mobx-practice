@@ -6,22 +6,22 @@ import Search from "./search";
 import './App.css';
 
 const App: React.FC =() => (
-  /*return (
-      <div className="App">
-        <header className="App-header">
-          <CityList/>
-        </header>
+    /*return (
+        <div className="App">
+          <header className="App-header">
+            <CityList/>
+          </header>
 
-      </div>
-  );*/
+        </div>
+    );*/
     //App.tsx  // city.tsx // context.tsx // store.tx // search.tsx 만듬
     <StoreProvider>
-        <div className="App">
-            <header className="App-header">
-                <Search />
-                <CityList />
-            </header>
-        </div>
+      <div className="App">
+        <header className="App-header">
+          <Search />
+          <CityList />
+        </header>
+      </div>
     </StoreProvider>
 );
 
